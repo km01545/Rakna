@@ -71,10 +71,26 @@ class _OtpPageState extends State<OtpPage> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
-                      TextFieldOTP(controller: c1, first: true, last: false),
-                      TextFieldOTP(controller: c2, first: false, last: false),
-                      TextFieldOTP(controller: c3, first: false, last: false),
-                      TextFieldOTP(controller: c4, first: false, last: true),
+                      TextFieldOTP(
+                        controller: c1,
+                        first: true,
+                        last: false,
+                      ),
+                      TextFieldOTP(
+                        controller: c2,
+                        first: false,
+                        last: false,
+                      ),
+                      TextFieldOTP(
+                        controller: c3,
+                        first: false,
+                        last: false,
+                      ),
+                      TextFieldOTP(
+                        controller: c4,
+                        first: false,
+                        last: true,
+                      ),
                     ],
                   ),
                   const SizedBox(

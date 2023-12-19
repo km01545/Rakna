@@ -5,9 +5,9 @@ import 'package:myapp/Screens/const.dart';
 class TextFieldOTP extends StatelessWidget {
   const TextFieldOTP({
     Key? key,
-    required this.controller,
     required this.first,
     required this.last,
+    required this.controller,
   });
   final TextEditingController controller;
   final bool first;

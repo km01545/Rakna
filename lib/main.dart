@@ -18,11 +18,11 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       routes: {
         // SignInPage.id: (context) => SignInPage(),
-        // SignInPage.id: (context) => SignInPage(),
-        // ForgotPassword.id: (context) => ForgotPassword(),
-        OtpPage.id: (context) => OtpPage(),
+        SignInPage.id: (context) => SignInPage(),
+        ForgotPassword.id: (context) => ForgotPassword(),
+        // OtpPage.id: (context) => OtpPage(),
       },
-      initialRoute: OtpPage.id,
+      initialRoute: SignInPage.id,
     );
   }
 }

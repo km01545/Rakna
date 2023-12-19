@@ -17,14 +17,6 @@ class CustomButton extends StatelessWidget {
         child: Column(
           children: [
             Container(
-              // decoration: BoxDecoration(
-              //   border: Border.all(
-              //     color: Color(0xff855726), // لون الحدود
-              //     width: 2.0, // سماكة الحدود
-              //   ),
-              //   color: Color(0xff454545),
-              //   borderRadius: BorderRadius.circular(25),
-              // ),
               decoration: ShapeDecoration(
                   color: const Color(0XFF4B4A4A),
                   shape: RoundedRectangleBorder(
